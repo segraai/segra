@@ -2,34 +2,34 @@ import { Shield, Lock, Database, Server, Eye, Zap } from "lucide-react";
 
 const features = [
   {
+    icon: Zap,
+    title: "Fast AI for Everyone",
+    description: "Your team gets instant access to powerful AI capabilities. No waiting, no restrictions, just fast results."
+  },
+  {
     icon: Shield,
-    title: "Complete Data Sovereignty",
-    description: "Your data never leaves your infrastructure. Maintain full control and ownership with zero external dependencies."
+    title: "Company Secrets Stay Private",
+    description: "Your sensitive data never leaves your environment. Work with AI knowing your secrets are completely protected."
   },
   {
     icon: Lock,
-    title: "Eliminate Counterparty Risk",
-    description: "Remove third-party AI vendors from your data pipeline. No more vendor lock-in or external security vulnerabilities."
-  },
-  {
-    icon: Database,
-    title: "On-Premise Deployment",
-    description: "Deploy directly in your private cloud or on-premise infrastructure. Meet the strictest compliance requirements."
+    title: "No Third-Party Exposure",
+    description: "Eliminate the risk of sending confidential information to external AI providers. Keep everything in-house."
   },
   {
     icon: Server,
-    title: "Enterprise-Grade Performance",
-    description: "High-performance AI models optimized for enterprise workloads. Scale seamlessly with your business needs."
+    title: "Always Available",
+    description: "Your team has 24/7 access to AI capabilities without depending on external services or rate limits."
   },
   {
     icon: Eye,
-    title: "Full Audit Visibility",
-    description: "Complete transparency into all AI operations. Comprehensive logging and monitoring for regulatory compliance."
+    title: "Complete Control",
+    description: "See exactly how AI is being used in your organization. Full visibility and control over all AI interactions."
   },
   {
-    icon: Zap,
-    title: "Rapid Implementation",
-    description: "Get up and running in days, not months. Pre-configured security policies and deployment automation."
+    icon: Database,
+    title: "Seamless Integration",
+    description: "Works with your existing workflows and tools. Your team can start using AI immediately without changing how they work."
   }
 ];
 
@@ -40,11 +40,11 @@ export const Features = () => {
         {/* Header */}
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Built for Enterprise Security
+            AI That Works How Your Team Needs It
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Address the fundamental challenges of AI adoption in regulated industries 
-            with infrastructure designed for maximum security and control.
+            Give your team the AI superpowers they need without compromising on security. 
+            Fast, private, and always available for your most sensitive work.
           </p>
         </div>
         

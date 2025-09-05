@@ -2,19 +2,19 @@ import { AlertTriangle, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const problems = [
-  "Data exposed to third-party AI providers",
-  "Vendor lock-in with external platforms", 
-  "Compliance violations from data sharing",
-  "Unknown security practices of AI vendors",
-  "Loss of intellectual property control"
+  "Team avoids AI tools due to data privacy concerns",
+  "Sending confidential documents to external AI services", 
+  "Limited AI access due to security restrictions",
+  "Productivity held back by privacy policies",
+  "Fear of intellectual property exposure"
 ];
 
 const solutions = [
-  "100% private AI infrastructure deployment",
-  "Complete vendor independence and flexibility",
-  "Full regulatory compliance and audit trails", 
-  "Transparent, enterprise-grade security",
-  "Absolute protection of proprietary data"
+  "Team uses AI confidently with sensitive data",
+  "All company information stays completely private",
+  "Unlimited AI access for all team members", 
+  "Maximum productivity with zero privacy trade-offs",
+  "Full protection of intellectual property"
 ];
 
 export const ProblemSolution = () => {
@@ -23,11 +23,11 @@ export const ProblemSolution = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            The Third-Party AI Risk Problem
+            The AI Privacy Dilemma
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Using external AI services exposes your organization to significant counterparty risks 
-            and regulatory compliance challenges.
+            Your team needs AI to stay competitive, but sending sensitive company data 
+            to third-party providers creates unacceptable security risks.
           </p>
         </div>
         
@@ -40,7 +40,7 @@ export const ProblemSolution = () => {
                 Current Risks
               </div>
               <h3 className="text-3xl font-bold text-foreground mb-6">
-                Third-Party AI Vulnerabilities
+                Current AI Limitations
               </h3>
             </div>
             
@@ -67,7 +67,7 @@ export const ProblemSolution = () => {
                 Our Solution
               </div>
               <h3 className="text-3xl font-bold text-foreground mb-6">
-                Private AI Infrastructure
+                Fast AI, Zero Risk
               </h3>
             </div>
             
@@ -82,7 +82,7 @@ export const ProblemSolution = () => {
             
             <div className="pt-6">
               <Button variant="accent" size="lg" className="w-full lg:w-auto">
-                Eliminate Your AI Risk
+                Give Your Team Fast AI
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
             </div>

@@ -30,28 +30,28 @@ export const Hero = () => {
         <div className="mb-6">
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 text-accent-foreground border border-accent/30 text-sm font-medium">
             <Shield className="w-4 h-4" />
-            Enterprise AI Security
+            Private AI for Teams
           </span>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-8 leading-tight">
-          Own Your AI.
+          Fast AI for Your Team.
           <br />
-          <span className="text-accent animate-glow">Control Your Data.</span>
+          <span className="text-accent animate-glow">Zero Third-Party Risk.</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-primary-foreground/90 mb-12 max-w-4xl mx-auto leading-relaxed">
-          Deploy private AI infrastructure that eliminates counterparty risk and ensures complete data sovereignty. 
-          Built for enterprises that value security, compliance, and control.
+          Give your team access to powerful AI without sending company secrets to external providers. 
+          Keep your data secure while unlocking the full potential of AI for your business.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <Button variant="hero" size="lg" className="px-12 py-6">
-            Schedule Demo
+            Get Fast AI for Your Team
             <ChevronRight className="w-5 h-5 ml-2" />
           </Button>
           <Button variant="outline" size="lg" className="px-8 py-6 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
-            Learn More
+            See How It Works
           </Button>
         </div>
         
@@ -66,7 +66,7 @@ export const Hero = () => {
           </span>
           <span className="flex items-center gap-2">
             <Database className="w-4 h-4" />
-            On-Premise Deployment
+            Private AI Access
           </span>
         </div>
       </div>
