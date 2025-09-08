@@ -1,5 +1,6 @@
 import { CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import secureInfrastructure from "@/assets/secure-infrastructure.jpg";
 
 const solutions = [
   {
@@ -26,8 +27,17 @@ const solutions = [
 
 export const ProblemSolution = () => {
   return (
-    <section className="py-24 bg-background">
-      <div className="max-w-6xl mx-auto px-6">
+    <section 
+      className="py-24 relative bg-background"
+      style={{
+        backgroundImage: `url(${secureInfrastructure})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed'
+      }}
+    >
+      <div className="absolute inset-0 bg-background/90"></div>
+      <div className="relative z-10 max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             The Self-Hosted Solution
@@ -38,9 +48,9 @@ export const ProblemSolution = () => {
           </p>
         </div>
         
-        <div className="space-y-6">
+        <div className="grid gap-6 max-w-4xl mx-auto">
           {solutions.map((solution, index) => (
-            <div key={index} className="flex items-start gap-4 p-8 bg-accent/5 rounded-xl border border-accent/20 hover:border-accent/40 transition-colors">
+            <div key={index} className="flex items-start gap-4 p-6 bg-card/80 backdrop-blur-sm rounded-xl border border-border/50 hover:bg-card/90 transition-all duration-300 shadow-lg">
               <CheckCircle className="w-6 h-6 text-accent mt-1 flex-shrink-0" />
               <div className="space-y-2">
                 <h4 className="text-xl font-semibold text-foreground">{solution.title}</h4>
