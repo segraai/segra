@@ -1,13 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { Shield, Lock, Database, ChevronRight } from "lucide-react";
-import heroImage from "@/assets/hero-ai-security.jpg";
+import heroImage from "@/assets/team-ai-collaboration.jpg";
 
 export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-50"
         style={{ backgroundImage: `url(${heroImage})` }}
       />
       
