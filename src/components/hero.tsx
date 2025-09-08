@@ -30,7 +30,7 @@ export const Hero = () => {
         <div className="mb-6">
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 text-accent-foreground border border-accent/30 text-sm font-medium">
             <Shield className="w-4 h-4" />
-            Private AI for Teams
+            SophyAI - Private AI for Teams
           </span>
         </div>
         
