@@ -57,10 +57,6 @@ export const Hero = () => {
         
         <div className="mt-16 flex items-center justify-center gap-8 text-primary-foreground/70 text-sm">
           <span className="flex items-center gap-2">
-            <Shield className="w-4 h-4" />
-            SOC 2 Compliant
-          </span>
-          <span className="flex items-center gap-2">
             <Lock className="w-4 h-4" />
             Zero Trust Architecture
           </span>
