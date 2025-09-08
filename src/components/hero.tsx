@@ -41,7 +41,7 @@ export const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-primary-foreground/90 mb-12 max-w-4xl mx-auto leading-relaxed">
-          Give your team access to powerful AI without sending company secrets to external providers.
+          Gain access to powerful AI without spilling company secrets to an AI company.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
