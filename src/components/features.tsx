@@ -2,34 +2,19 @@ import { Shield, Lock, Database, Server, Eye, Zap } from "lucide-react";
 
 const features = [
   {
-    icon: Zap,
-    title: "Fast AI for Everyone",
-    description: "Your team gets instant access to powerful AI capabilities. No waiting, no restrictions, just fast results."
-  },
-  {
     icon: Shield,
     title: "Company Secrets Stay Private",
-    description: "Your sensitive data never leaves your environment. Work with AI knowing your secrets are completely protected."
-  },
-  {
-    icon: Lock,
-    title: "No Third-Party Exposure",
-    description: "Eliminate the risk of sending confidential information to external AI providers. Keep everything in-house."
-  },
-  {
-    icon: Server,
-    title: "Always Available",
-    description: "Your team has 24/7 access to AI capabilities without depending on external services or rate limits."
+    description: "Your most sensitive data never leaves your secure environment. No third-party exposure, complete control over your intellectual property. Work with AI on your most confidential projects without fear of data leaks or corporate espionage. Your trade secrets, customer data, and proprietary code remain exactly where they belong - in your hands."
   },
   {
     icon: Eye,
-    title: "Complete Control",
-    description: "See exactly how AI is being used in your organization. Full visibility and control over all AI interactions."
+    title: "Easy Admin Access Control",
+    description: "IT administrators have granular control over who accesses AI capabilities. Set permissions by department, role, or individual. Monitor usage patterns, track AI interactions, and ensure compliance with your security policies. Your admin team controls the gates - no unauthorized AI usage, no security blind spots."
   },
   {
     icon: Database,
-    title: "Seamless Integration",
-    description: "Works with your existing workflows and tools. Your team can start using AI immediately without changing how they work."
+    title: "Company Knowledge Base Integration",
+    description: "Safely feed your company's knowledge - documents, processes, protocols, and data - directly into your private AI. It learns your business context, understands your specific terminology, and provides answers based on your actual company information. All while keeping every byte of your data completely isolated from external systems."
   }
 ];
 
