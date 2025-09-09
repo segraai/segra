@@ -40,7 +40,7 @@ export const ProblemSolution = () => {
       <div className="relative z-10 max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            The Self-Hosted Solution
+            Self-hosting is the solution
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             We help you deploy powerful AI capabilities using proven open-source solutions, 

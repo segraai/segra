@@ -49,7 +49,7 @@ export const Hero = () => {
             Get Fast AI for Your Team
             <ChevronRight className="w-5 h-5 ml-2" />
           </Button>
-          <Button variant="outline" size="lg" className="px-8 py-6 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+          <Button variant="outline" size="lg" className="px-8 py-6 border-primary-foreground/30 text-primary-foreground bg-primary-foreground/10 hover:bg-primary-foreground/20">
             See How It Works
           </Button>
         </div>

@@ -11,8 +11,8 @@ const Index = () => {
       <Navigation />
       <Hero />
       <AIRisks />
-      <Features />
       <ProblemSolution />
+      <Features />
       <Footer />
     </div>
   );
