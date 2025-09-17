@@ -7,16 +7,16 @@ export const Navigation = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center gap-3">
+          <a href="/#self-hosting" className="flex items-center gap-3">
             <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
               <Shield className="w-6 h-6 text-primary-foreground" />
             </div>
             <span className="text-xl font-bold text-foreground">SegraAI</span>
-          </div>
+          </a>
           
           {/* Navigation Links */}
           <div className="hidden md:flex items-center gap-8">
-            <a href="#self-hosting-solution" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/#self-hosting" className="text-muted-foreground hover:text-foreground transition-colors">
               Solutions
             </a>
             <a href="/about" className="text-muted-foreground hover:text-foreground transition-colors">
@@ -30,7 +30,7 @@ export const Navigation = () => {
               <a href="/about#contact">Contact Sales</a>
             </Button>
             <Button variant="enterprise" asChild>
-              <a href="#self-hosting-solution">Get Started</a>
+              <a href="/#self-hosting">Get Started</a>
             </Button>
             <Button variant="ghost" size="icon" className="md:hidden">
               <Menu className="w-5 h-5" />
