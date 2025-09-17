@@ -26,18 +26,18 @@ export const Footer = () => {
               <li><a href="#" className="hover:text-accent transition-colors">Private AI Cloud</a></li>
               <li><a href="#" className="hover:text-accent transition-colors">On-Premise Deployment</a></li>
               <li><a href="#" className="hover:text-accent transition-colors">Hybrid Infrastructure</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Custom Models</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Custom Builds</a></li>
             </ul>
           </div>
           
-          {/* Resources */}
+          {/* About Us */}
           <div>
-            <h4 className="text-primary-foreground font-semibold mb-4">Resources</h4>
+            <h4 className="text-primary-foreground font-semibold mb-4">About Us</h4>
             <ul className="space-y-3 text-primary-foreground/80">
-              <li><a href="#" className="hover:text-accent transition-colors">Documentation</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Security Whitepaper</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Compliance Guide</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Case Studies</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Our Story</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Team</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Careers</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Contact</a></li>
             </ul>
           </div>
         </div>
