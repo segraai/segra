@@ -11,7 +11,7 @@ export const Footer = () => {
               <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
                 <Shield className="w-6 h-6 text-accent-foreground" />
               </div>
-              <span className="text-xl font-bold text-primary-foreground">PrivateAI</span>
+              <span className="text-xl font-bold text-primary-foreground">SegraAI</span>
             </div>
             <p className="text-primary-foreground/80 max-w-md leading-relaxed">
               Enterprise-grade private AI infrastructure that eliminates counterparty risk 
@@ -45,7 +45,7 @@ export const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-primary-foreground/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/70 text-sm">
-            © 2024 PrivateAI. All rights reserved.
+            © 2024 SegraAI. All rights reserved.
           </p>
           <div className="flex gap-6 text-primary-foreground/70 text-sm">
             <a href="#" className="hover:text-accent transition-colors">Privacy Policy</a>
