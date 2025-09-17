@@ -26,11 +26,8 @@ export const Navigation = () => {
           
           {/* CTA Buttons */}
           <div className="flex items-center gap-4">
-            <Button variant="ghost" className="hidden sm:inline-flex" asChild>
-              <a href="/about#contact">Contact Sales</a>
-            </Button>
             <Button variant="enterprise" asChild>
-              <a href="/#self-hosting">Get Started</a>
+              <a href="/about#contact">Get Started</a>
             </Button>
             <Button variant="ghost" size="icon" className="md:hidden">
               <Menu className="w-5 h-5" />
