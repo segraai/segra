@@ -16,27 +16,21 @@ export const Navigation = () => {
           
           {/* Navigation Links */}
           <div className="hidden md:flex items-center gap-8">
-            <a href="#solutions" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="#self-hosting-solution" className="text-muted-foreground hover:text-foreground transition-colors">
               Solutions
             </a>
-            <a href="#security" className="text-muted-foreground hover:text-foreground transition-colors">
-              Security
-            </a>
-            <a href="#compliance" className="text-muted-foreground hover:text-foreground transition-colors">
-              Compliance
-            </a>
-            <a href="#resources" className="text-muted-foreground hover:text-foreground transition-colors">
-              Resources
+            <a href="/about" className="text-muted-foreground hover:text-foreground transition-colors">
+              About Us
             </a>
           </div>
           
           {/* CTA Buttons */}
           <div className="flex items-center gap-4">
-            <Button variant="ghost" className="hidden sm:inline-flex">
-              Contact Sales
+            <Button variant="ghost" className="hidden sm:inline-flex" asChild>
+              <a href="/about#contact">Contact Sales</a>
             </Button>
-            <Button variant="enterprise">
-              Get Started
+            <Button variant="enterprise" asChild>
+              <a href="#self-hosting-solution">Get Started</a>
             </Button>
             <Button variant="ghost" size="icon" className="md:hidden">
               <Menu className="w-5 h-5" />

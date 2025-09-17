@@ -1,5 +1,6 @@
-import { Shield, Mail, Linkedin } from "lucide-react";
+import { Shield } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 export const AboutUs = () => {
   return (
@@ -87,25 +88,65 @@ export const AboutUs = () => {
 
         {/* Contact Section */}
         <div id="contact" className="text-center">
-          <h2 className="text-4xl font-bold text-foreground mb-6">Contact Us</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-6">Get in Touch</h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Ready to discuss your private AI infrastructure needs? Get in touch with our team.
+            We'll get you set up with a demo deployment.
           </p>
           
-          <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
+          <div className="max-w-2xl mx-auto">
             <Card className="bg-card border-border">
-              <CardContent className="p-8 text-center">
-                <Mail className="w-12 h-12 text-accent mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-foreground mb-2">Email Us</h3>
-                <p className="text-muted-foreground">hello@segraai.com</p>
-              </CardContent>
-            </Card>
-            
-            <Card className="bg-card border-border">
-              <CardContent className="p-8 text-center">
-                <Linkedin className="w-12 h-12 text-accent mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-foreground mb-2">LinkedIn</h3>
-                <p className="text-muted-foreground">Connect with us</p>
+              <CardContent className="p-8">
+                <form className="space-y-6">
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div>
+                      <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
+                        Name
+                      </label>
+                      <input
+                        type="text"
+                        id="name"
+                        className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                        placeholder="Your name"
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
+                        Email
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                        placeholder="your@email.com"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <label htmlFor="company" className="block text-sm font-medium text-foreground mb-2">
+                      Company
+                    </label>
+                    <input
+                      type="text"
+                      id="company"
+                      className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                      placeholder="Your company"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
+                      Message
+                    </label>
+                    <textarea
+                      id="message"
+                      rows={4}
+                      className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent resize-none"
+                      placeholder="Tell us about your needs..."
+                    ></textarea>
+                  </div>
+                  <Button type="submit" className="w-full" variant="enterprise">
+                    Send Message
+                  </Button>
+                </form>
               </CardContent>
             </Card>
           </div>
