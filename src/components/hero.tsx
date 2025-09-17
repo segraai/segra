@@ -45,12 +45,14 @@ export const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <Button variant="hero" size="lg" className="px-12 py-6">
-            Get Fast AI for Your Team
-            <ChevronRight className="w-5 h-5 ml-2" />
+          <Button variant="hero" size="lg" className="px-12 py-6" asChild>
+            <a href="#self-hosting">
+              Get Fast AI for Your Team
+              <ChevronRight className="w-5 h-5 ml-2" />
+            </a>
           </Button>
-          <Button variant="outline" size="lg" className="px-8 py-6 border-primary-foreground/30 text-primary-foreground bg-primary-foreground/10 hover:bg-primary-foreground/20">
-            See How It Works
+          <Button variant="outline" size="lg" className="px-8 py-6 border-primary-foreground/30 text-primary-foreground bg-primary-foreground/10 hover:bg-primary-foreground/20" asChild>
+            <a href="#self-hosting">See How It Works</a>
           </Button>
         </div>
         

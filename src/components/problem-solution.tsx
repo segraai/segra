@@ -28,6 +28,7 @@ const solutions = [
 export const ProblemSolution = () => {
   return (
     <section 
+      id="self-hosting"
       className="py-24 relative bg-background"
       style={{
         backgroundImage: `url(${secureInfrastructure})`,
