@@ -34,9 +34,9 @@ export const Footer = () => {
           <div>
             <h4 className="text-primary-foreground font-semibold mb-4">About Us</h4>
             <ul className="space-y-3 text-primary-foreground/80">
-              <li><a href="#team" className="hover:text-accent transition-colors">Team</a></li>
-              <li><a href="#our-story" className="hover:text-accent transition-colors">Our Story</a></li>
-              <li><a href="#contact" className="hover:text-accent transition-colors">Contact</a></li>
+              <li><a href="/about#team" className="hover:text-accent transition-colors">Team</a></li>
+              <li><a href="/about#our-story" className="hover:text-accent transition-colors">Our Story</a></li>
+              <li><a href="/about#contact" className="hover:text-accent transition-colors">Contact</a></li>
             </ul>
           </div>
         </div>
