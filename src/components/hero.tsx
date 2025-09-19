@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Shield, Lock, Database, ChevronRight } from "lucide-react";
 import heroImage from "@/assets/team-ai-collaboration.jpg";
+import segraLogo from "@/assets/segra-logo.png";
 
 export const Hero = () => {
   return (
@@ -29,7 +30,7 @@ export const Hero = () => {
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
         <div className="mb-6">
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 text-accent-foreground border border-accent/30 text-sm font-medium">
-            <Shield className="w-4 h-4" />
+            <img src={segraLogo} alt="Segra AI Logo" className="w-4 h-4" />
             SegraAI - Private AI for Teams
           </span>
         </div>
