@@ -100,7 +100,11 @@ export default {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'float': 'float 6s ease-in-out infinite',
-				'glow': 'glow 2s ease-in-out infinite alternate'
+				'glow': 'glow 2s ease-in-out infinite alternate',
+				'spin-slow': 'spin 20s linear infinite'
+			},
+			dropShadow: {
+				'glow': '0 0 20px rgba(120, 119, 198, 0.5)'
 			},
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
