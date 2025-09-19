@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Shield, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
+import segraLogo from "@/assets/segra-logo.png";
 
 export const Navigation = () => {
   return (
@@ -8,9 +9,7 @@ export const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <Shield className="w-6 h-6 text-primary-foreground" />
-            </div>
+            <img src={segraLogo} alt="Segra AI Logo" className="w-10 h-10" />
             <span className="text-xl font-bold text-foreground">SegraAI</span>
           </a>
           
