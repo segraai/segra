@@ -1,4 +1,4 @@
-import { Shield } from "lucide-react";
+import segraLogo from "@/assets/segra-logo.png";
 
 export const Footer = () => {
   return (
@@ -8,9 +8,7 @@ export const Footer = () => {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                <Shield className="w-6 h-6 text-accent-foreground" />
-              </div>
+              <img src={segraLogo} alt="Segra AI Logo" className="w-10 h-10" />
               <span className="text-xl font-bold text-primary-foreground">SegraAI</span>
             </div>
             <p className="text-primary-foreground/80 max-w-md leading-relaxed">
