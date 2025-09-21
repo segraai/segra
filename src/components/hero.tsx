@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Shield, Lock, Database, ChevronRight, Cpu, Network, Server } from "lucide-react";
-import heroImage from "@/assets/team-ai-collaboration.jpg";
+import heroImage from "@/assets/hero-cybersecurity-bg.jpg";
 import segraLogo from "@/assets/segra-logo.png";
 
 export const Hero = () => {
