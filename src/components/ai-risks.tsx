@@ -67,6 +67,10 @@ export const AIRisks = () => {
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-start gap-2">
                     <AlertTriangle className="w-4 h-4 text-destructive mt-1 flex-shrink-0" />
+                    Company financials and revenue data
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <AlertTriangle className="w-4 h-4 text-destructive mt-1 flex-shrink-0" />
                     Proprietary algorithms and business logic
                   </li>
                   <li className="flex items-start gap-2">
