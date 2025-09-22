@@ -5,46 +5,58 @@ import segraLogo from "@/assets/segra-logo.png";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-purple-950 to-black">
-      {/* Fortress-like Architectural Geometry */}
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-black">
+      {/* Fortress Architecture - Large Vault Structure */}
       <div className="absolute inset-0">
-        {/* Vault Door Structure - Central architectural element */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 border-2 border-purple-400/20 rounded-lg transform rotate-45">
-          <div className="absolute inset-8 border border-cyan-400/15 rounded-lg">
-            <div className="absolute inset-4 border border-purple-300/10 rounded-lg"></div>
+        {/* Central Massive Vault Door */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border-4 border-purple-400/40 rounded-3xl transform rotate-45 opacity-60">
+          <div className="absolute inset-16 border-2 border-cyan-400/30 rounded-2xl">
+            <div className="absolute inset-12 border border-purple-300/25 rounded-xl">
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 border-4 border-purple-500/50 rounded-full">
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-purple-400/30 rounded-full"></div>
+              </div>
+            </div>
           </div>
         </div>
         
-        {/* Protective Corner Brackets */}
-        <div className="absolute top-12 left-12 w-16 h-16 border-l-2 border-t-2 border-purple-500/30"></div>
-        <div className="absolute top-12 right-12 w-16 h-16 border-r-2 border-t-2 border-cyan-500/30"></div>
-        <div className="absolute bottom-12 left-12 w-16 h-16 border-l-2 border-b-2 border-blue-500/30"></div>
-        <div className="absolute bottom-12 right-12 w-16 h-16 border-r-2 border-b-2 border-purple-400/30"></div>
+        {/* Massive Protective Corner Fortifications */}
+        <div className="absolute top-0 left-0 w-48 h-48 border-l-8 border-t-8 border-purple-500/60 opacity-70"></div>
+        <div className="absolute top-0 right-0 w-48 h-48 border-r-8 border-t-8 border-cyan-500/60 opacity-70"></div>
+        <div className="absolute bottom-0 left-0 w-48 h-48 border-l-8 border-b-8 border-blue-500/60 opacity-70"></div>
+        <div className="absolute bottom-0 right-0 w-48 h-48 border-r-8 border-b-8 border-purple-400/60 opacity-70"></div>
         
-        {/* Structural Grid Pattern */}
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-0 left-1/4 w-px h-full bg-gradient-to-b from-transparent via-purple-400 to-transparent"></div>
-          <div className="absolute top-0 left-3/4 w-px h-full bg-gradient-to-b from-transparent via-cyan-400 to-transparent"></div>
-          <div className="absolute top-1/4 left-0 w-full h-px bg-gradient-to-r from-transparent via-purple-400 to-transparent"></div>
-          <div className="absolute top-3/4 left-0 w-full h-px bg-gradient-to-r from-transparent via-cyan-400 to-transparent"></div>
+        {/* Structural Beams */}
+        <div className="absolute top-0 left-1/3 w-1 h-full bg-gradient-to-b from-purple-400/40 via-purple-500/20 to-purple-400/40"></div>
+        <div className="absolute top-0 right-1/3 w-1 h-full bg-gradient-to-b from-cyan-400/40 via-cyan-500/20 to-cyan-400/40"></div>
+        <div className="absolute top-1/3 left-0 w-full h-1 bg-gradient-to-r from-purple-400/40 via-purple-500/20 to-cyan-400/40"></div>
+        <div className="absolute bottom-1/3 left-0 w-full h-1 bg-gradient-to-r from-cyan-400/40 via-blue-500/20 to-purple-400/40"></div>
+        
+        {/* Large Hexagonal Security Plates */}
+        <div className="absolute top-32 left-1/4 w-32 h-32 border-4 border-purple-400/50 transform rotate-30 opacity-50" 
+             style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}></div>
+        <div className="absolute bottom-32 right-1/4 w-28 h-28 border-4 border-cyan-400/50 transform -rotate-30 opacity-50" 
+             style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}></div>
+        
+        {/* Security Lock Mechanisms */}
+        <div className="absolute top-1/4 left-20 w-16 h-16 border-4 border-purple-500/70 rounded-full opacity-60">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 border-2 border-purple-400/80 rounded-full">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-purple-300/60 rounded-full"></div>
+          </div>
+        </div>
+        <div className="absolute bottom-1/4 right-24 w-14 h-14 border-4 border-cyan-500/70 rounded-full opacity-60">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-5 h-5 border-2 border-cyan-400/80 rounded-full">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1.5 h-1.5 bg-cyan-300/60 rounded-full"></div>
+          </div>
         </div>
         
-        {/* Fortress Hexagons */}
-        <div className="absolute top-24 left-1/4 w-12 h-12 border border-purple-400/20 transform rotate-30" style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}></div>
-        <div className="absolute bottom-32 right-1/4 w-10 h-10 border border-cyan-400/25 transform -rotate-30" style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}></div>
-        
-        {/* Vault Lock Mechanism Visual */}
-        <div className="absolute top-1/3 left-16 w-8 h-8 border-2 border-purple-500/40 rounded-full">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3 h-3 border border-purple-400/60 rounded-full"></div>
-        </div>
-        <div className="absolute bottom-1/3 right-20 w-6 h-6 border-2 border-cyan-500/40 rounded-full">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2 h-2 border border-cyan-400/60 rounded-full"></div>
-        </div>
+        {/* Armored Plates */}
+        <div className="absolute top-24 right-32 w-24 h-40 border-2 border-purple-400/40 transform -rotate-12 opacity-40"></div>
+        <div className="absolute bottom-24 left-32 w-32 h-24 border-2 border-cyan-400/40 transform rotate-12 opacity-40"></div>
       </div>
       
-      {/* Atmospheric Fortress Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-tr from-slate-950/80 via-purple-950/60 to-black/90"></div>
-      <div className="absolute inset-0 bg-gradient-to-bl from-transparent via-purple-900/20 to-transparent"></div>
+      {/* Dark Fortress Atmosphere */}
+      <div className="absolute inset-0 bg-gradient-to-tr from-slate-950/60 via-purple-950/40 to-black/80"></div>
+      <div className="absolute inset-0 bg-gradient-to-bl from-transparent via-purple-900/30 to-transparent"></div>
       
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
