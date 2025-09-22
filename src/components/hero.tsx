@@ -5,38 +5,37 @@ import segraLogo from "@/assets/segra-logo.png";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-      {/* Subtle AI Mesh Pattern */}
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-800">
+      {/* Cloud Formations */}
       <div className="absolute inset-0">
-        {/* Grid Pattern */}
-        <div 
-          className="absolute inset-0 opacity-20"
-          style={{
-            backgroundImage: `
-              linear-gradient(rgba(147, 197, 253, 0.1) 1px, transparent 1px),
-              linear-gradient(90deg, rgba(147, 197, 253, 0.1) 1px, transparent 1px)
-            `,
-            backgroundSize: '40px 40px'
-          }}
-        ></div>
+        {/* Large Cloud Shapes */}
+        <div className="absolute top-[10%] left-[5%] w-96 h-48 bg-gradient-to-r from-white/5 via-blue-200/10 to-transparent rounded-full blur-3xl transform -rotate-12"></div>
+        <div className="absolute top-[20%] right-[10%] w-80 h-40 bg-gradient-to-l from-purple-200/8 via-cyan-200/12 to-transparent rounded-full blur-2xl transform rotate-6"></div>
+        <div className="absolute bottom-[15%] left-[15%] w-72 h-36 bg-gradient-to-r from-indigo-200/8 via-white/6 to-transparent rounded-full blur-3xl transform rotate-3"></div>
+        <div className="absolute bottom-[25%] right-[5%] w-64 h-32 bg-gradient-to-l from-cyan-200/10 via-purple-200/8 to-transparent rounded-full blur-2xl transform -rotate-8"></div>
         
-        {/* Neural Network Nodes */}
-        <div className="absolute top-[20%] left-[15%] w-2 h-2 bg-blue-400/30 rounded-full"></div>
-        <div className="absolute top-[30%] left-[25%] w-1.5 h-1.5 bg-cyan-400/25 rounded-full"></div>
-        <div className="absolute top-[25%] left-[35%] w-2 h-2 bg-indigo-400/30 rounded-full"></div>
-        <div className="absolute top-[40%] right-[20%] w-1.5 h-1.5 bg-purple-400/25 rounded-full"></div>
-        <div className="absolute top-[60%] right-[30%] w-2 h-2 bg-blue-400/30 rounded-full"></div>
-        <div className="absolute bottom-[25%] left-[20%] w-1.5 h-1.5 bg-cyan-400/25 rounded-full"></div>
+        {/* Medium Cloud Layers */}
+        <div className="absolute top-[35%] left-[25%] w-48 h-24 bg-gradient-to-r from-blue-300/15 to-transparent rounded-full blur-xl"></div>
+        <div className="absolute top-[50%] right-[25%] w-56 h-28 bg-gradient-to-l from-white/8 to-transparent rounded-full blur-xl"></div>
         
-        {/* Subtle Connection Lines */}
-        <div className="absolute top-[20%] left-[15%] w-20 h-px bg-gradient-to-r from-blue-400/20 to-transparent rotate-12"></div>
-        <div className="absolute top-[30%] left-[25%] w-16 h-px bg-gradient-to-r from-cyan-400/15 to-transparent -rotate-6"></div>
-        <div className="absolute top-[40%] right-[20%] w-18 h-px bg-gradient-to-l from-purple-400/20 to-transparent rotate-45"></div>
+        {/* Data Overlay Elements */}
+        <div className="absolute top-[25%] left-[30%] w-32 h-0.5 bg-gradient-to-r from-cyan-400/40 to-transparent"></div>
+        <div className="absolute top-[45%] right-[35%] w-24 h-0.5 bg-gradient-to-l from-blue-400/35 to-transparent"></div>
+        <div className="absolute bottom-[35%] left-[40%] w-28 h-0.5 bg-gradient-to-r from-purple-400/30 to-transparent"></div>
+        
+        {/* Secure Data Nodes */}
+        <div className="absolute top-[30%] left-[35%] w-3 h-3 bg-cyan-400/60 rounded-full shadow-lg shadow-cyan-400/30"></div>
+        <div className="absolute top-[55%] right-[30%] w-3 h-3 bg-blue-400/60 rounded-full shadow-lg shadow-blue-400/30"></div>
+        <div className="absolute bottom-[30%] left-[45%] w-3 h-3 bg-purple-400/60 rounded-full shadow-lg shadow-purple-400/30"></div>
+        
+        {/* Privacy Lock Icons - subtle */}
+        <div className="absolute top-[40%] left-[60%] w-2 h-2 bg-white/20 rounded-sm"></div>
+        <div className="absolute bottom-[45%] right-[40%] w-2 h-2 bg-white/20 rounded-sm"></div>
       </div>
       
-      {/* Gradient Overlays */}
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-900/10 via-transparent to-purple-900/10"></div>
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 via-transparent to-transparent"></div>
+      {/* Atmospheric Overlays */}
+      <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-indigo-950/40"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-950/20 to-transparent"></div>
       
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
