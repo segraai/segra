@@ -5,34 +5,38 @@ import segraLogo from "@/assets/segra-logo.png";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-indigo-950 to-black">
-      {/* Simple City Skyline */}
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+      {/* Subtle AI Mesh Pattern */}
       <div className="absolute inset-0">
-        {/* Clean Building Silhouettes */}
-        <div className="absolute bottom-0 left-0 w-full h-1/2">
-          <div className="absolute bottom-0 left-[10%] w-16 h-48 bg-gradient-to-t from-purple-500/30 to-transparent"></div>
-          <div className="absolute bottom-0 left-[20%] w-24 h-64 bg-gradient-to-t from-cyan-500/30 to-transparent"></div>
-          <div className="absolute bottom-0 left-[35%] w-20 h-80 bg-gradient-to-t from-indigo-500/40 to-transparent"></div>
-          <div className="absolute bottom-0 left-[50%] w-28 h-56 bg-gradient-to-t from-blue-500/30 to-transparent"></div>
-          <div className="absolute bottom-0 left-[65%] w-18 h-72 bg-gradient-to-t from-purple-500/35 to-transparent"></div>
-          <div className="absolute bottom-0 left-[80%] w-22 h-60 bg-gradient-to-t from-cyan-500/30 to-transparent"></div>
-        </div>
+        {/* Grid Pattern */}
+        <div 
+          className="absolute inset-0 opacity-20"
+          style={{
+            backgroundImage: `
+              linear-gradient(rgba(147, 197, 253, 0.1) 1px, transparent 1px),
+              linear-gradient(90deg, rgba(147, 197, 253, 0.1) 1px, transparent 1px)
+            `,
+            backgroundSize: '40px 40px'
+          }}
+        ></div>
         
-        {/* Subtle Data Lines */}
-        <div className="absolute inset-0">
-          <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-cyan-400/60 to-transparent"></div>
-          <div className="absolute top-2/3 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-purple-400/50 to-transparent"></div>
-          
-          {/* Connection Points */}
-          <div className="absolute top-[45%] left-[25%] w-3 h-3 bg-cyan-400/60 rounded-full"></div>
-          <div className="absolute top-[55%] left-[60%] w-3 h-3 bg-purple-400/60 rounded-full"></div>
-          <div className="absolute top-[40%] left-[75%] w-3 h-3 bg-indigo-400/60 rounded-full"></div>
-        </div>
+        {/* Neural Network Nodes */}
+        <div className="absolute top-[20%] left-[15%] w-2 h-2 bg-blue-400/30 rounded-full"></div>
+        <div className="absolute top-[30%] left-[25%] w-1.5 h-1.5 bg-cyan-400/25 rounded-full"></div>
+        <div className="absolute top-[25%] left-[35%] w-2 h-2 bg-indigo-400/30 rounded-full"></div>
+        <div className="absolute top-[40%] right-[20%] w-1.5 h-1.5 bg-purple-400/25 rounded-full"></div>
+        <div className="absolute top-[60%] right-[30%] w-2 h-2 bg-blue-400/30 rounded-full"></div>
+        <div className="absolute bottom-[25%] left-[20%] w-1.5 h-1.5 bg-cyan-400/25 rounded-full"></div>
+        
+        {/* Subtle Connection Lines */}
+        <div className="absolute top-[20%] left-[15%] w-20 h-px bg-gradient-to-r from-blue-400/20 to-transparent rotate-12"></div>
+        <div className="absolute top-[30%] left-[25%] w-16 h-px bg-gradient-to-r from-cyan-400/15 to-transparent -rotate-6"></div>
+        <div className="absolute top-[40%] right-[20%] w-18 h-px bg-gradient-to-l from-purple-400/20 to-transparent rotate-45"></div>
       </div>
       
-      {/* Dynamic Enterprise Atmosphere */}
-      <div className="absolute inset-0 bg-gradient-to-tr from-slate-950/50 via-indigo-950/30 to-black/70"></div>
-      <div className="absolute inset-0 bg-gradient-to-bl from-transparent via-purple-900/20 to-transparent"></div>
+      {/* Gradient Overlays */}
+      <div className="absolute inset-0 bg-gradient-to-r from-blue-900/10 via-transparent to-purple-900/10"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 via-transparent to-transparent"></div>
       
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
