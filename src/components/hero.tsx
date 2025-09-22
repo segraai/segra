@@ -5,109 +5,87 @@ import segraLogo from "@/assets/segra-logo.png";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 to-slate-800">
-      {/* Fortress Grid Foundation */}
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-purple-950 to-black">
+      {/* Modern Particle Field */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(71,85,105,0.12)_2px,transparent_2px),linear-gradient(0deg,rgba(71,85,105,0.12)_2px,transparent_2px)] bg-[length:100px_100px]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(168,85,247,0.1),transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[conic-gradient(from_0deg,transparent,rgba(168,85,247,0.05),transparent)]"></div>
+        <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-purple-400 rounded-full animate-pulse opacity-60"></div>
+        <div className="absolute top-1/3 right-1/3 w-1 h-1 bg-blue-400 rounded-full animate-pulse opacity-40" style={{ animationDelay: "1s" }}></div>
+        <div className="absolute bottom-1/4 left-1/3 w-1.5 h-1.5 bg-cyan-400 rounded-full animate-pulse opacity-50" style={{ animationDelay: "2s" }}></div>
+        <div className="absolute top-2/3 right-1/4 w-1 h-1 bg-purple-300 rounded-full animate-pulse opacity-30" style={{ animationDelay: "3s" }}></div>
       </div>
       
-      {/* Large Vault Geometric Shapes */}
-      <div className="absolute top-16 left-16">
-        <div className="w-48 h-48 border-2 border-slate-600/30 bg-gradient-to-br from-slate-700/8 to-slate-800/15 transform rotate-12"></div>
-        <div className="absolute inset-6 border border-slate-500/20 transform rotate-6"></div>
+      {/* Dynamic Mesh Gradient */}
+      <div className="absolute inset-0 bg-gradient-to-tr from-purple-900/20 via-transparent to-cyan-900/20"></div>
+      <div className="absolute inset-0 bg-gradient-to-bl from-transparent via-purple-950/30 to-transparent"></div>
+      
+      {/* Minimal Tech Icons */}
+      <div className="absolute top-24 left-16 animate-float opacity-20">
+        <Shield className="w-8 h-8 text-purple-400" />
+      </div>
+      <div className="absolute top-32 right-20 animate-float opacity-15" style={{ animationDelay: "2s" }}>
+        <Lock className="w-6 h-6 text-cyan-400" />
+      </div>
+      <div className="absolute bottom-32 left-24 animate-float opacity-25" style={{ animationDelay: "4s" }}>
+        <Database className="w-7 h-7 text-blue-400" />
       </div>
       
-      <div className="absolute top-20 right-20">
-        <div className="w-40 h-40 border-2 border-slate-500/25 bg-slate-700/5 transform rotate-45 clip-path-polygon-[25%_0%,75%_0%,100%_50%,75%_100%,25%_100%,0%_50%]"></div>
-        <div className="absolute inset-4 border border-slate-600/15 transform rotate-12"></div>
-      </div>
-      
-      <div className="absolute bottom-16 left-20">
-        <div className="w-44 h-44 bg-gradient-to-tr from-slate-600/10 to-slate-700/20 transform rotate-3 border border-slate-500/25"></div>
-        <div className="absolute inset-4 border-2 border-slate-600/20 transform -rotate-3"></div>
-        <div className="absolute inset-8 border border-slate-500/15 transform rotate-6"></div>
-      </div>
-      
-      <div className="absolute bottom-20 right-16">
-        <div className="w-36 h-36 border-3 border-slate-600/30 transform rotate-30 bg-slate-800/10"></div>
-        <div className="absolute inset-3 border border-slate-500/20 transform -rotate-15"></div>
-      </div>
-      
-      {/* Architectural Framework Lines */}
-      <div className="absolute top-0 left-1/4 w-0.5 h-full bg-gradient-to-b from-transparent via-slate-500/20 to-transparent"></div>
-      <div className="absolute top-0 right-1/4 w-0.5 h-full bg-gradient-to-b from-transparent via-slate-500/20 to-transparent"></div>
-      <div className="absolute top-1/4 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-slate-500/20 to-transparent"></div>
-      <div className="absolute bottom-1/4 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-slate-500/20 to-transparent"></div>
-      
-      {/* Fortress Corner Brackets */}
-      <div className="absolute top-8 left-8 w-24 h-24 border-l-4 border-t-4 border-slate-500/35"></div>
-      <div className="absolute top-8 right-8 w-24 h-24 border-r-4 border-t-4 border-slate-500/35"></div>
-      <div className="absolute bottom-8 left-8 w-24 h-24 border-l-4 border-b-4 border-slate-500/35"></div>
-      <div className="absolute bottom-8 right-8 w-24 h-24 border-r-4 border-b-4 border-slate-500/35"></div>
-      
-      {/* Protective Vault Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-900/40 via-transparent to-slate-900/60"></div>
+      {/* Geometric Elements */}
+      <div className="absolute top-1/3 right-12 w-24 h-24 border border-purple-500/10 rounded-full animate-spin-slow"></div>
+      <div className="absolute bottom-1/3 left-12 w-16 h-16 border border-cyan-500/10 rotate-45 animate-pulse"></div>
       
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
         <div className="mb-8">
-          <div className="inline-flex items-center gap-2 px-6 py-3 bg-slate-800/50 backdrop-blur-sm border border-slate-600/30 text-slate-200 text-sm font-medium">
-            <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+          <span className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 backdrop-blur-sm border border-white/10 text-white text-sm font-medium">
             <img src={segraLogo} alt="Segra AI Logo" className="w-5 h-5" />
             SegraAI - Private AI for Teams
-            <div className="w-6 h-0.5 bg-slate-600"></div>
-            <span className="text-xs text-slate-400">SECURED</span>
-          </div>
+          </span>
         </div>
         
-        <h1 className="text-6xl md:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-          <span className="block font-black">FORTRESS</span>
-          <span className="block text-4xl md:text-6xl font-light text-slate-300 mt-2">FOR YOUR AI</span>
-          <span className="block text-lg md:text-xl font-normal text-slate-400 mt-4 tracking-widest">KEEP YOUR SECRETS</span>
+        <h1 className="text-6xl md:text-8xl font-bold text-white mb-8 leading-tight">
+          Own Your AI.
+          <br />
+          <span className="bg-gradient-to-r from-purple-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent animate-glow">
+            Keep Your Secrets.
+          </span>
         </h1>
         
-        <p className="text-xl md:text-2xl text-slate-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-          Impenetrable AI infrastructure. Zero trust architecture. 
-          <br />
-          <span className="text-slate-400">Your data never leaves your vault.</span>
+        <p className="text-xl md:text-2xl text-white/80 mb-12 max-w-4xl mx-auto leading-relaxed">
+          Gain access to powerful AI without spilling company secrets to an AI company.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <Button 
             size="lg" 
-            className="px-12 py-6 bg-slate-800 hover:bg-slate-700 text-white border border-slate-600 shadow-2xl font-semibold tracking-wide" 
+            className="px-12 py-6 bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-700 hover:to-cyan-700 text-white border-0 shadow-elegant" 
             asChild
           >
             <a href="#self-hosting">
-              SECURE YOUR AI
+              Get Fast AI for Your Team
               <ChevronRight className="w-5 h-5 ml-2" />
             </a>
           </Button>
           <Button 
             variant="outline" 
             size="lg" 
-            className="px-8 py-6 border-slate-500 text-slate-300 bg-transparent hover:bg-slate-800/50" 
+            className="px-8 py-6 border-white/20 text-white bg-white/5 backdrop-blur-sm hover:bg-white/10" 
             asChild
           >
-            <a href="#self-hosting">VIEW ARCHITECTURE</a>
+            <a href="#self-hosting">See How It Works</a>
           </Button>
         </div>
         
-        <div className="mt-16 flex items-center justify-center gap-12 text-slate-400 text-sm">
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 border border-slate-500 transform rotate-45"></div>
-            <span className="tracking-wide">ZERO TRUST</span>
-          </div>
-          <div className="w-px h-6 bg-slate-600"></div>
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 bg-slate-600 transform rotate-45"></div>
-            <span className="tracking-wide">PRIVATE CLOUD</span>
-          </div>
-          <div className="w-px h-6 bg-slate-600"></div>
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 border border-slate-500"></div>
-            <span className="tracking-wide">ENCRYPTED</span>
-          </div>
+        <div className="mt-16 flex items-center justify-center gap-8 text-white/60 text-sm">
+          <span className="flex items-center gap-2">
+            <Lock className="w-4 h-4" />
+            Zero Trust Architecture
+          </span>
+          <span className="flex items-center gap-2">
+            <Database className="w-4 h-4" />
+            Private AI Access
+          </span>
         </div>
       </div>
     </section>
