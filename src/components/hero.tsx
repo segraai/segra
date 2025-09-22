@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Shield, Lock, Database, ChevronRight, Cpu, Network, Server } from "lucide-react";
-import networkImage from "@/assets/network-connections-bg.jpg";
+import serverArchImage from "@/assets/server-architecture-bg.jpg";
 import segraLogo from "@/assets/segra-logo.png";
 
 export const Hero = () => {
@@ -10,7 +10,7 @@ export const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(${networkImage})`,
+          backgroundImage: `url(${serverArchImage})`,
         }}
       ></div>
       
