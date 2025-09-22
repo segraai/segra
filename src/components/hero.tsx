@@ -5,59 +5,45 @@ import segraLogo from "@/assets/segra-logo.png";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-gray-900 to-zinc-900">
-      {/* Fortress Background Pattern */}
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 to-slate-800">
+      {/* Main Fortress Grid */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[linear-gradient(30deg,transparent_48%,rgba(100,116,139,0.1)_49%,rgba(100,116,139,0.1)_51%,transparent_52%)] bg-[length:40px_40px]"></div>
-        <div className="absolute inset-0 bg-[linear-gradient(-30deg,transparent_48%,rgba(71,85,105,0.08)_49%,rgba(71,85,105,0.08)_51%,transparent_52%)] bg-[length:60px_60px]"></div>
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(71,85,105,0.1)_1px,transparent_1px),linear-gradient(0deg,rgba(71,85,105,0.1)_1px,transparent_1px)] bg-[length:80px_80px]"></div>
       </div>
       
-      {/* Hexagonal Vault Pattern */}
-      <div className="absolute inset-0 opacity-20">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(148,163,184,0.15)_1px,transparent_1px)] bg-[length:50px_50px]"></div>
+      {/* Large Geometric Vault Shapes */}
+      <div className="absolute top-20 left-20">
+        <div className="w-40 h-40 border-2 border-slate-600/40 bg-gradient-to-br from-slate-700/10 to-slate-800/20 transform rotate-12"></div>
       </div>
       
-      {/* Angular Fortress Elements */}
-      <div className="absolute top-16 left-16">
-        <div className="relative">
-          <div className="w-24 h-24 border-2 border-slate-500/30 transform rotate-45 animate-pulse"></div>
-          <div className="absolute inset-2 border border-slate-400/20 transform rotate-45"></div>
-          <Shield className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-8 h-8 text-slate-400" />
-        </div>
+      <div className="absolute top-32 right-16">
+        <div className="w-32 h-32 border-2 border-slate-500/30 bg-slate-700/10 transform rotate-45"></div>
+        <div className="absolute inset-4 border border-slate-600/20 transform rotate-12"></div>
       </div>
       
-      <div className="absolute top-32 right-20">
-        <div className="relative">
-          <div className="w-16 h-16 bg-gradient-to-br from-slate-700/20 to-slate-800/30 transform rotate-12 border border-slate-500/20"></div>
-          <Lock className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-6 h-6 text-slate-300" />
-        </div>
+      <div className="absolute bottom-20 left-16">
+        <div className="w-36 h-36 bg-gradient-to-tr from-slate-600/15 to-slate-700/25 transform rotate-6 border border-slate-500/20"></div>
+        <div className="absolute inset-3 border-2 border-slate-600/30 transform -rotate-6"></div>
       </div>
       
-      <div className="absolute bottom-24 left-20">
-        <div className="relative">
-          <div className="w-20 h-20 clip-path-hexagon bg-gradient-to-br from-slate-600/20 to-slate-700/30 border border-slate-500/25"></div>
-          <Database className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-7 h-7 text-slate-400" />
-        </div>
+      <div className="absolute bottom-32 right-20">
+        <div className="w-28 h-28 border-2 border-slate-600/35 transform rotate-30 bg-slate-800/15"></div>
       </div>
       
-      <div className="absolute bottom-40 right-24">
-        <div className="w-14 h-14 transform rotate-45 border-2 border-slate-500/20 bg-slate-800/20"></div>
-      </div>
+      {/* Fortress Structural Lines */}
+      <div className="absolute top-0 left-1/3 w-px h-full bg-gradient-to-b from-transparent via-slate-500/25 to-transparent"></div>
+      <div className="absolute top-0 right-1/3 w-px h-full bg-gradient-to-b from-transparent via-slate-500/25 to-transparent"></div>
+      <div className="absolute top-1/3 left-0 w-full h-px bg-gradient-to-r from-transparent via-slate-500/25 to-transparent"></div>
+      <div className="absolute bottom-1/3 left-0 w-full h-px bg-gradient-to-r from-transparent via-slate-500/25 to-transparent"></div>
       
-      {/* Architectural Framework */}
-      <div className="absolute top-0 left-1/4 w-0.5 h-full bg-gradient-to-b from-transparent via-slate-500/20 to-transparent"></div>
-      <div className="absolute top-0 right-1/4 w-0.5 h-full bg-gradient-to-b from-transparent via-slate-500/15 to-transparent"></div>
-      <div className="absolute top-1/4 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-slate-500/20 to-transparent"></div>
-      <div className="absolute bottom-1/4 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-slate-500/15 to-transparent"></div>
+      {/* Corner Fortress Brackets */}
+      <div className="absolute top-12 left-12 w-20 h-20 border-l-3 border-t-3 border-slate-500/40"></div>
+      <div className="absolute top-12 right-12 w-20 h-20 border-r-3 border-t-3 border-slate-500/40"></div>
+      <div className="absolute bottom-12 left-12 w-20 h-20 border-l-3 border-b-3 border-slate-500/40"></div>
+      <div className="absolute bottom-12 right-12 w-20 h-20 border-r-3 border-b-3 border-slate-500/40"></div>
       
-      {/* Vault Corner Elements */}
-      <div className="absolute top-8 left-8 w-16 h-16 border-l-2 border-t-2 border-slate-500/30"></div>
-      <div className="absolute top-8 right-8 w-16 h-16 border-r-2 border-t-2 border-slate-500/30"></div>
-      <div className="absolute bottom-8 left-8 w-16 h-16 border-l-2 border-b-2 border-slate-500/30"></div>
-      <div className="absolute bottom-8 right-8 w-16 h-16 border-r-2 border-b-2 border-slate-500/30"></div>
-      
-      {/* Central Fortress Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-900/50 via-transparent to-slate-900/50"></div>
+      {/* Central Protective Overlay */}
+      <div className="absolute inset-0 bg-gradient-radial from-transparent via-slate-900/20 to-slate-900/60"></div>
       
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
