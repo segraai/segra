@@ -104,7 +104,11 @@ export const AIRisks = () => {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="w-4 h-4 bg-muted rounded-full mt-1.5 flex-shrink-0"></span>
-                    Zero long-term competitive advantage
+                    Increasing data leaks
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="w-4 h-4 bg-muted rounded-full mt-1.5 flex-shrink-0"></span>
+                    Loss of control over intellectual property
                   </li>
                 </ul>
               </div>
