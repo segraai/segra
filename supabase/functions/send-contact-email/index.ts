@@ -60,7 +60,7 @@ const handler = async (req: Request): Promise<Response> => {
 
     // Send email notification
     const emailResponse = await resend.emails.send({
-      from: "SegraAI Contact <onboarding@resend.dev>",
+      from: "SegraAI Contact <info@segra.ai>",
       to: ["dree@segra.ai"], // Replace with your actual email
       subject: `New Contact Form Submission from ${name}`,
       html: `
