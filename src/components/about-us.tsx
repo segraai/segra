@@ -28,16 +28,15 @@ export const AboutUs = () => {
     setIsSubmitting(true);
 
     try {
-      const { error } = await supabase
-        .from('contact_submissions')
-        .insert([
-          {
-            name: formData.name,
-            email: formData.email,
-            company: formData.company,
-            message: formData.message
-          }
-        ]);
+      // Call the edge function directly
+      const { data, error } = await supabase.functions.invoke('send-contact-email', {
+        body: {
+          name: formData.name,
+          email: formData.email,
+          company: formData.company,
+          message: formData.message
+        }
+      });
 
       if (error) throw error;
 
